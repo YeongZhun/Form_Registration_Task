@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Culinary Institute</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/stylingIndex.css">
+    <script src="./utilities/jquery.js"></script>
+</head>
+
+<body>
+    <div>
+        <header>
+            <!-- Code Nav bar here -->
+        </header>
+        <section class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-8 col-lg-8 offset-sm-2 offset-md-2 offset-lg-2 col-xs-12">
+                  <h1 class="display-4 toPad">Welcome to Culinary Institute</h1>
+                </div>
+              </div>
+            <div style="justify-content:center" class="row">
+               <!-- Code here for the card-->
+               <div class="col-md-3 col-lg-3">
+                <a href="register.html">
+                  <div class="card" onclick="store('healthy')">
+                    <img class="card-img-top" src="assets/registerFood.jpg" alt="Image of healthy cooking" title="Image of healthy cooking" onclick="store('healthy')">
+                    <div class="card-body">
+                      <h5 class="card-title">Healthy Cooking</h5>
+                      <p class="card-text">Nutrition cooking class to keep you fit</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <a href="register.html">
+                  <div class="card" onclick="store('desserts')">
+                    <img class="card-img-top" src="assets/desserts.jpg" alt="Image of desserts" title="Image of desserts" onclick="store('desserts')">
+                    <div class="card-body">
+                      <h5 class="card-title">Desserts</h5>
+                      <p class="card-text">Use creativity on your delicious desserts</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <a href="register.html">
+                  <div class="card" onclick="store('regulars')">
+                    <img class="card-img-top" src="assets/regulars.jpg" alt="Image of regular cooking" title="Image of regular cooking" onclick="store('regulars')">
+                    <div class="card-body">
+                      <h5 class="card-title">Regular</h5>
+                      <p class="card-text">Daily Veg & Non veg meals to show your creativity</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+           
+        </section>
+    </div>
+    <link href='./utilities/jquery-ui-1.12.1.custom/jquery-ui.css' rel="stylesheet">
+    <script src="./js/index.js"></script>
+    <script src="./utilities/iv.js"></script>
+</body>
+
+</html>

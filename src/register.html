@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Culinary Institute</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/stylingRegister.css">
+  <script src="./utilities/jquery.js"></script>
+</head>
+
+<body id="body" onload="getFromSession()">
+  <header>
+    </header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 offset-md-2 col-xs-12">
+        <div class="card mt-2">
+          <div class="card-body">
+            <h5 class="card-title text-center text-primary">
+              <span id="showGreeting"></span>
+            </h5>
+            <h4 id="type">Register for <selected class> cooking class</h4>
+            <h6>List of cuisines for this group of class</h6>
+            <ul id="list"></ul>
+            <form id="registerForm" onsubmit="register(event)">
+              <div class="form-group">
+                <label for="yourname">Student Name</label>
+                <label for="yourname" class="text-danger">*</label>
+                <input type="text" class="form-control" id="yourname" name="yourname" required onkeyup="enableButton()">
+                <span class="error-message" id="nameError"></span>
+              </div>
+              <div class="form-group">
+                <label for="age">Age</label>
+                <label for="age" class="text-danger">*</label>
+                <input type="number" class="form-control" id="age" name="age" min="18" max="60" required onkeyup="enableButton()">
+                <span class="error-message" id="ageError"></span>
+              </div>
+              <div class="form-group">
+                <label for="showDrop">Select City</label>
+                <select class="form-control" id="showDrop" name="showDrop" onchange="enableButton()">
+                  </select>
+              </div>
+
+              <div id="successMessage" class="hidden mb-2"></div>
+              <button type="submit" class="btn btn-primary" id="btn" disabled>Register</button>
+              <a href="index.html" class="btn btn-success home-button ml-2">Home</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/Register.js"></script>
+  <script src="./utilities/rv.js"></script>
+  <link href='./utilities/jquery-ui-1.12.1.custom/jquery-ui.css' rel="stylesheet">
+</body>
+
+</html>

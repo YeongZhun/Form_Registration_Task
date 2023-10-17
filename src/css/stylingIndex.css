@@ -1,0 +1,45 @@
+html, body{
+	height:100%; 
+	background-color: #6c686d
+}
+
+.navbar-brand{
+	font-weight: 500;
+	font-size:1.25rem;
+}
+.paragraph{
+	font-style: italic;
+	font-weight: 500;
+	font-size: 20px;
+}
+.text-danger,.text-success,.text-primary,.text-info{
+	font-weight: 700
+}
+.card{
+	color: black;
+	text-decoration: none;
+}
+a {
+	text-decoration: none !important;
+}
+
+img:hover{
+	transform: scale(1.01);
+    box-shadow:white 0px 5px 20px -3px;
+}
+
+img{
+	/* Code transition property here to transform all the properties with a duration of 0.2s and delay of 0s */
+	transition: all 0.2s 0s;
+}
+.toPad{
+	/* Style the heading here. Add a bottom padding of 4rem and make the font color whitesmoke */
+	padding-bottom: 4rem;
+	color: whitesmoke;
+}
+
+.bg-nav{
+	/* Code the navbar background here. Set the color to rgba(71, 57, 82) with a transparency  of 0.863 */
+	background-color: rgba(71, 57, 82, 0.863);
+  }
+

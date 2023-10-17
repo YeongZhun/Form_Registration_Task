@@ -1,0 +1,14 @@
+{
+    "healthy":{
+        "varieties":["Veg Salad","Chicken salad","Oat meals"],
+        "city":["Chennai", "Bangalore"]
+    },
+    "desserts":{
+        "varieties":["Indian sweets","Pastry"],
+        "city":["Delhi", "Bangalore"]
+    },
+    "regulars":{
+        "varieties":["North-Indian food","South-Indian food","chinese food"],
+        "city":["Pune", "Hyderabad"]
+    }
+}

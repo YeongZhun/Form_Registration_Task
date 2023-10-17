@@ -1,0 +1,15 @@
+body{
+  background-image: url(../assets/registerFood.jpg);
+  background-size: cover;
+}
+.bg-nav{
+  background-color: rgba(71, 57, 82, 0.863)
+}
+
+.error-message {
+  color: red;
+}
+
+#successMessage {
+  color: green;
+}
